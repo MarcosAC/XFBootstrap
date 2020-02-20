@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xfBootstrap="clr-namespace:XFBootstrap.Controls"
+             x:Class="XFBootstrap.MainPage">
+
+    <StackLayout Padding="15">
+        <xfBootstrap:ButtonBootstrap StyleButton="Default" 
+                                     Text="Botão Default" />
+        
+        <xfBootstrap:ButtonBootstrap StyleButton="Primary" 
+                                     Text="Botão Primary" />
+        
+        <xfBootstrap:ButtonBootstrap StyleButton="Success" 
+                                     Text="Botão Success" />
+        
+        <xfBootstrap:ButtonBootstrap StyleButton="Info" 
+                                     Text="Botão Info" />
+        
+        <xfBootstrap:ButtonBootstrap StyleButton="Warning" 
+                                     Text="Botão Warning" />
+        
+        <xfBootstrap:ButtonBootstrap StyleButton="Danger" 
+                                     Text="Botão Danger" />
+
+        <xfBootstrap:CustonEntry Placeholder="Nome" />
+
+    </StackLayout>
+
+</ContentPage>
